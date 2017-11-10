@@ -27,8 +27,9 @@ if(  $uname  ){
 		//以下為使用者輸入正常的字串
 		if($row = oci_fetch_row($stmt)) {
     
-        
-		    echo $row[1].'您好!' ;
+            $_SESSION['uname']=$row[1];
+			header('Location:index.php');
+		    
 		
 	    }
 	    else{
