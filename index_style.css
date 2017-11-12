@@ -1,8 +1,16 @@
 .type {
 	background-color: #CEDCE0;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: px;
+	width: 767px;
 }
 .B1 {
 	width: 100px;
+	color: #FBFBFB;
+	font-weight: bolder;
+	background-color: #3A385B;
 
 }
 .like {
@@ -22,24 +30,46 @@
 }
 .B2 {
 	width: 100px;
+	color: #F8F8F8;
+	font-weight: bolder;
+	background-color: #3A385B;
 }
 .B3 {
 	width: 100px;
+	background-color: #3A385B;
+	color: #FCFCFC;
+	font-weight: bolder;
 }
 .B4 {
 	width: 100px;
+	background-color: #3A385B;
+	color: #F9F9F9;
+	font-weight: bolder;
 }
 .B5 {
 	width: 100px;
+	background-color: #3A385B;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+.B6 {
+	width: 100px;
+	background-color: #3A385B;
+	color: #F9F9F9;
+	font-weight: bolder;
 }
 .body {
 	background-color: #CEDCE0;
 }
 .color {
 }
-.B6 {
-	width: 100px;
-}
 .btype {
 	margin-top: 20px;
+}
+.file {
+	min-width: 0px;
+	width: 100px;
+}
+.side1 {
+	width: 767px;
 }
