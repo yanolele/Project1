@@ -10,7 +10,6 @@ $uname=isset($_POST['uname'])?$_POST['uname']:'';
 $pwd=isset($_POST['pwd'])?$_POST['pwd']:'';
 
 
-
 require 'Oracle_connect.php';
 if(  $uname  ){
     $uname="'".trim($uname)."'";
